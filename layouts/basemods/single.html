@@ -10,6 +10,7 @@
     <article class="post h-entry">
         <header class="basemod-header">
             <h1 class="p-name post-title{{ if .Params.favorite }} favorite{{end}}{{ if .Params.draft }} draft{{end}}">{{ trim .Title  " " }}</h1>
+            <p class="basemod-author">by {{ .Params.modAuthor }}</p>
             <a class="basemod-source" href="{{ .Params.modSource }}">original post</a>
         </header>
         <div class="content e-content">

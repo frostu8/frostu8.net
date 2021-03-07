@@ -2,8 +2,14 @@
 title = "Angelica Mod"
 date = "2021-03-07T11:15:31-05:00"
 draft = false
+
+summary = """
+Roland wants to meet Angelica. Angela struggled to rebuild Angelica, 
+but she was welcomed anyways in an unstable state.
+"""
+
 modSource = "https://gall.dcinside.com/mgallery/board/view/?id=lobotomycorporation&no=553941&search_head=110&page=1"
-summary = "Angelica Mod by ㅇㅇ"
+modAuthor = "ㅇㅇ"
 +++
 
 ![1615131432.jpg](/basemods/angelica-mod/1615131432.jpg)

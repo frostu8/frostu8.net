@@ -6,3 +6,9 @@ article header a.basemod-source {
 article header a.basemod-source:hover {
     color: var(--link-state-color);
 }
+
+article header p.basemod-author {
+    align-self: flex-end;
+    margin-left: 0.5em;
+    flex-grow: 1;
+}
