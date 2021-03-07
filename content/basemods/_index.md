@@ -1,9 +1,9 @@
----
-title: "BaseMods Mirror"
-date: 2021-03-07T10:59:44-05:00
-draft: false
-menu: "main"
----
++++
+title = "BaseMods Mirror"
+date = "2021-03-07T10:59:44-05:00"
+draft = false
+menu = "main"
++++
 
 I periodically upload LOR mods to this mirror, and translate them if necessary.
 
