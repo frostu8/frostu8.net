@@ -4,13 +4,6 @@ title = "frostu8.net"
 
 theme = "anubis"
 
-[[menu.main]]
-identifier = "basemods-mirror"
-name = "BaseMods Mirror"
-title = "BaseMods Mirror"
-url = "/basemods/"
-weight = 0
-
 [params]
 style = "dark-without-switcher"
 customCSS = ["/css/basemods.css"]
