@@ -8,8 +8,8 @@ Roland wants to meet Angelica. Angela struggled to rebuild Angelica,
 but she was welcomed anyways in an unstable state.
 """
 
-modSource = "https://gall.dcinside.com/mgallery/board/view/?id=lobotomycorporation&no=553941&search_head=110&page=1"
-modAuthor = "ㅇㅇ"
+modSource = "https://gall.dcinside.com/mgallery/board/view/?id=lobotomycorporation&no=553453&search_head=110&page=1"
+modAuthor = "패치뜸부기"
 +++
 
 ![1615131432.jpg](/basemods/angelica-mod/1615131432.jpg)
@@ -43,4 +43,5 @@ Below are some early artworks.
 
 ![1615123822.png](/basemods/angelica-mod/1615123822.png)
 
-## [Download Translated Mod](/basemods/angelica-mod/AngelicaMod.zip)
+## [Download Translated Mod by ㅇㅇ](/basemods/angelica-mod/AngelicaMod.zip)
+[original translation post](https://gall.dcinside.com/mgallery/board/view/?id=lobotomycorporation&no=553941&search_head=110&page=1)
