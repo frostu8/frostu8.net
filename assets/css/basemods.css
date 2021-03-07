@@ -1,0 +1,8 @@
+article header a.basemod-source {
+    align-self: flex-end;
+    color: var(--link-color);
+}
+
+article header a.basemod-source:hover {
+    color: var(--link-state-color);
+}
