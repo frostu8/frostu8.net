@@ -2,13 +2,13 @@
     let htmlHeader = document.getElementById("troll-tuesday-header");
     let htmlStatus = document.getElementById("troll-tuesday-status");
 
-    function nextTrollTuesday(year, month) {
+    function getTrollTuesdayIn(year, month) {
         // get days in the specified month
         let daysInMonth = new Date(year, month, 0).getDate();
 
         // third tuesday of each month.
         let tuesday = 0;
-        for (let i = 0; i < daysInMonth; i++) {
+        for (let i = 1; i <= daysInMonth; i++) {
             let thisDate = new Date(year, month, i);
 
             // 2 is day for tuesday
@@ -25,18 +25,32 @@
         throw new Error(`No troll tuesday in month ${month} of year ${year}!`);
     }
     
-    function updateTrollTuesday() {
-        let date = new Date();
-        let trollDate = nextTrollTuesday(date.getFullYear(), date.getMonth());
-        //let trollDate = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 13, 0);
+    function nextTrollTuesday(dateRef) {
+        let date = new Date(dateRef.getTime());
 
-        if (date.getDate() == trollDate.getDate()) {
+        let troll = getTrollTuesdayIn(date.getFullYear(), date.getMonth());
+
+        if (date.getDate() > troll.getDate()) {
+            // look in next month
+            date.setMonth(date.getMonth() + 1);
+            return getTrollTuesdayIn(date.getFullYear(), date.getMonth());
+        } else {
+            return troll;
+        }
+    }
+
+    function updateTrollTuesday() { 
+        let date = new Date();
+        //let date = new Date(2021, 2, 22);
+        let trollDate = nextTrollTuesday(date);
+
+        if (date.getDate() == trollDate.getDate() &&
+            date.getMonth() == trollDate.getMonth() &&
+            date.getFullYear() == trollDate.getFullYear()) {
             // it's troll tuesday!
-            htmlHeader.active = false;
             htmlStatus.innerHTML = "Today is Troll Tuesday.";
         } else {
             // not troll tuesday
-            htmlHeader.active = false;
             htmlStatus.innerHTML = timerString(trollDate - date);
         }
     }
