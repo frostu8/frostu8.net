@@ -7,4 +7,4 @@ theme = "anubis"
 [params]
 author = "frostu8"
 style = "dark-without-switcher"
-customCSS = ["/css/basemods.css"]
+customCSS = ["/css/basemods.css", "/css/basic.css", "/css/troll-tuesday.css"]

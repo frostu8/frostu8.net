@@ -1,0 +1,10 @@
+<html>
+    <head>
+        {{ block "head" . }}
+            {{ partial "head.html" . }}
+        {{ end }}
+    </head>
+    <body class="basic-body">
+        {{ .Content }}
+    </body>
+</html>
