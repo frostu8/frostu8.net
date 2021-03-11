@@ -6,3 +6,5 @@ draft = false
 
 # Bingus!
 ![Bingus!](/img/bingus.png)
+
+I'm on [Github](https://github.com/frostu8). User of Arch Linux. GNU is my dad.
